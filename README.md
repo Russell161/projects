@@ -4,4 +4,4 @@ Currently the following are housed in this Repository:
 
 Audiophile - Frontend Mentor Guided Project
 
-QR Code 
+QR Code - Frontend Mentor Guided Project
