@@ -62,10 +62,11 @@ body{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: var(--secondary-color);
-    font-size: 20px;
-    padding: 20px;
+    font-size: 10px;
     background-color: var(--primary-color);
     position: relative;
     bottom: 0;
