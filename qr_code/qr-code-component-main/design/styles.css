@@ -30,22 +30,32 @@ body{
     border-radius: 40px;
 }
 
+.qr-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
 .qr-code-image {
     border-radius: 30px;
-    margin-inline: 100px;
-    
+    /* margin-inline: 100px; */
 }
 
 .qr-code-title {
     text-align: center;
     color: var(--accent-color);
-    font-size: 40px;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .qr-code-description {
     text-align: center;
     color: var(--secondary-color);
     font-size: 35px;
+    margin-top: 15px;
 }
 
 footer{
