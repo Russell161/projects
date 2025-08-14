@@ -40,13 +40,14 @@ body{
 
 .qr-code-image {
     border-radius: 30px;
-    /* margin-inline: 100px; */
+    max-height: 300px; 
+    max-width: 300px;
 }
 
 .qr-code-title {
     text-align: center;
     color: var(--accent-color);
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
