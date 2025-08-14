@@ -1,3 +1,52 @@
-.body{
-    color: black;
+
+header{
+    background-color: rgb(228, 158, 65);
+    font-size: 30px;
+    padding: 0.5rem 1rem;
+}
+
+nav{
+    /* background-color: white; */
+    padding: 0.5rem 1rem;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover{
+    background-color: white;
+}
+
+body{
+    background-color: white;
+}
+
+.intro{
+    padding: 10px;
+    /* background-color: lightblue; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.intro-h{
+    font-size: 60px;
+    color: darkblue;
+}
+
+.intro-p{
+    font-size: 30px;
+    color: darkblue;
 }
